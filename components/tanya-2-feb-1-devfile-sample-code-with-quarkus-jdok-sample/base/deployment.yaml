@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: tanya-2-feb-1-devfile-sample-code-with-quarkus-jdok-sample
     spec:
       containers:
-      - image: quay.io/redhat-appstudio/user-workload:rhn-support-tshearon-tenant-tanya-2-feb-1-devfile-sample-code-with-quarkus-jdok-sample
+      - image: quay.io/redhat-appstudio/user-workload@sha256:aa65830f7d5363a47e01e8cfd6d710ea70e812ca0d5d687958c7f11f2de3a0cd
         imagePullPolicy: Always
         livenessProbe:
           httpGet:
