@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: tanya-2-feb-1-devfile-sample-code-with-quarkus-jdok-sample
+  namespace: rhn-support-tshearon-tenant
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-appstudio/user-workload@sha256:aa65830f7d5363a47e01e8cfd6d710ea70e812ca0d5d687958c7f11f2de3a0cd
+        name: container-image
+        resources: {}
+status: {}
